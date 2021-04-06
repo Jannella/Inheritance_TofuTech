@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Inheritance_TofuTech</string>
+    <string-array name="Class">
+        <item>Select One</item>
+        <item>Swordsman</item>
+        <item>Mage</item>
+        <item>Archer</item>
+        <item>Merchant</item>
+    </string-array>
+    <string-array name="Swordsman">
+        <item>Select One</item>
+        <item>Knight</item>
+        <item>Crusader</item>
+    </string-array>
+    <string-array name="Mage">
+        <item>Select One</item>
+        <item>Wizard</item>
+        <item>Sage</item>
+    </string-array>
+    <string-array name="Archer">
+        <item>Select One</item>
+        <item>Hunter</item>
+        <item>Bard/Dancer</item>
+    </string-array>
+    <string-array name="Merchant">
+        <item>Select One</item>
+        <item>Blacksmith</item>
+        <item>Alchemist</item>
+    </string-array>
+    <string-array name="Poring">
+        <item>Select One</item>
+        <item>Poring</item>
+    </string-array>
+</resources>

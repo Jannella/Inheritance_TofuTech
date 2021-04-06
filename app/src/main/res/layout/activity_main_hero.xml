@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bgbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageArcher"
+        android:layout_width="148dp"
+        android:layout_height="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        tools:srcCompat="@drawable/archer" />
+
+    <EditText
+        android:id="@+id/lvl"
+        android:layout_width="104dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:text="1"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageMerchant"
+        android:layout_width="178dp"
+        android:layout_height="217dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        tools:srcCompat="@drawable/merchant" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageMage"
+        android:layout_width="148dp"
+        android:layout_height="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        tools:srcCompat="@drawable/mage" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageSwordsman"
+        android:layout_width="161dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        tools:srcCompat="@drawable/swordsman" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:text="Level:"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <TextView
+        android:id="@+id/heroHP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/font"
+        android:text="Health"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/Classtxt"
+        app:layout_constraintStart_toStartOf="@+id/Classtxt"
+        app:layout_constraintTop_toBottomOf="@+id/Classtxt" />
+
+    <TextView
+        android:id="@+id/heroINT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font"
+        android:text="INT"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/heroAGI"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/heroAGI"
+        app:layout_constraintTop_toBottomOf="@+id/heroAGI" />
+
+    <TextView
+        android:id="@+id/heroAGI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font"
+        android:text="AGI"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/heroSTR"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/heroSTR"
+        app:layout_constraintTop_toBottomOf="@+id/heroSTR" />
+
+    <TextView
+        android:id="@+id/heroSTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font"
+        android:text="STR"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/heroARMOR"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/heroARMOR"
+        app:layout_constraintTop_toBottomOf="@+id/heroARMOR" />
+
+    <TextView
+        android:id="@+id/heroMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font"
+        android:text="Mana"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/heroHP"
+        app:layout_constraintStart_toStartOf="@+id/heroHP"
+        app:layout_constraintTop_toBottomOf="@+id/heroHP" />
+
+    <TextView
+        android:id="@+id/heroARMOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font"
+        android:text="Armor"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/heroMP"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="@+id/heroMP"
+        app:layout_constraintTop_toBottomOf="@+id/heroMP" />
+
+    <TextView
+        android:id="@+id/heroHPresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-!-"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/heroHP"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/heroMPresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-!-"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font"
+        app:layout_constraintEnd_toEndOf="@+id/heroHPresult"
+        app:layout_constraintStart_toStartOf="@+id/heroHPresult"
+        app:layout_constraintTop_toTopOf="@+id/heroMP" />
+
+    <TextView
+        android:id="@+id/heroARMORresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-!-"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font"
+        app:layout_constraintEnd_toEndOf="@+id/heroMPresult"
+        app:layout_constraintStart_toStartOf="@+id/heroMPresult"
+        app:layout_constraintTop_toTopOf="@+id/heroARMOR" />
+
+    <TextView
+        android:id="@+id/heroSTRresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-!-"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font"
+        app:layout_constraintEnd_toEndOf="@+id/heroARMORresult"
+        app:layout_constraintStart_toStartOf="@+id/heroARMORresult"
+        app:layout_constraintTop_toTopOf="@+id/heroSTR" />
+
+    <TextView
+        android:id="@+id/heroAGIresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-!-"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font"
+        app:layout_constraintEnd_toEndOf="@+id/heroSTRresult"
+        app:layout_constraintStart_toStartOf="@+id/heroSTRresult"
+        app:layout_constraintTop_toTopOf="@+id/heroAGI" />
+
+    <TextView
+        android:id="@+id/heroINTresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-!-"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font"
+        app:layout_constraintEnd_toEndOf="@+id/heroAGIresult"
+        app:layout_constraintStart_toStartOf="@+id/heroAGIresult"
+        app:layout_constraintTop_toTopOf="@+id/heroINT" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/heroClassesBtn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/font"
+        android:background="@drawable/custombuttom"
+        android:text="SubClasses"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
+    <TextView
+        android:id="@+id/Classtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/font"
+        android:text="Class:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Spinner
+        android:id="@+id/heroClass"
+        android:layout_width="140dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/font"
+        android:spinnerMode="dropdown"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/lvl"
+        app:layout_constraintTop_toTopOf="@+id/Classtxt"></Spinner>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
